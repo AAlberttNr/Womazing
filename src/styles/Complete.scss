@@ -1,0 +1,27 @@
+.complete__main {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 130px;
+	> div {
+		display: flex;
+		gap: 32px;
+		align-items: center;
+		> div {
+			display: flex;
+			flex-direction: column;
+			gap: 17px;
+			> h3 {
+				font-size: 25px;
+				font-weight: 500;
+				line-height: 35px;
+				letter-spacing: 0.02em;
+			}
+			> p {
+				font-size: 17px;
+				font-weight: 500;
+				line-height: 24px;
+				letter-spacing: 0.02em;
+			}
+		}
+	}
+}

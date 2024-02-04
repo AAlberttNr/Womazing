@@ -1,0 +1,75 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic); /* Raleway */
+// https://www.figma.com/file/OFNh7sSivQKwPRV4hBv8Yi/WOMAZING?node-id=0%3A1
+@import './Footer';
+@import './header';
+@import './Hero';
+@import './New';
+@import './Important';
+@import './Dream';
+@import './About';
+@import './Category';
+@import './Product';
+@import './Cart.scss';
+@import './Contact.scss';
+@import './Confirm.scss';
+@import './Complete.scss';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+button {
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+input,
+input:focus {
+	outline: none;
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	max-width: 1110px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number']::-webkit-clear-button {
+	-webkit-appearance: none;
+	display: none;
+}
+
+input[type='number']::-moz-focus-inner {
+	border: 0;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}

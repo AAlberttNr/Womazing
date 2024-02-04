@@ -1,0 +1,63 @@
+.footer__bg {
+	height: 363px;
+	background-color: #f1eadc;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 104px 0 40px 0;
+	&__list {
+		display: flex;
+		gap: 45px;
+		> a {
+			color: black;
+			font-weight: 700;
+
+			&.active {
+				color: #6e9c9f; /* Цвет активного элемента */
+			}
+		}
+	}
+	&__contact {
+		width: 310px;
+		display: flex;
+		flex-direction: column;
+		> p {
+			margin-left: auto;
+		}
+	}
+}
+
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	> p {
+		line-height: 30px;
+	}
+	> ol {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	&_social {
+		width: 525px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		> div {
+			display: flex;
+			gap: 12px;
+			margin-bottom: 31px;
+			> img {
+				cursor: pointer;
+			}
+		}
+		> img {
+			width: 91px;
+			height: 30px;
+		}
+	}
+}

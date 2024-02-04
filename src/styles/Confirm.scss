@@ -1,0 +1,86 @@
+.confirm__main {
+	&_card {
+		display: flex;
+
+		gap: 400px;
+		margin-bottom: 100px;
+		> form {
+			display: flex;
+			flex-direction: column;
+			gap: 35px;
+			> h3 {
+				font-size: 25px;
+				font-weight: 500;
+				line-height: 35px;
+				letter-spacing: 0.02em;
+			}
+			> input {
+				width: 350px;
+				height: 40px;
+				border: 0;
+				border-bottom: 1px solid #000;
+				// Font
+				color: #868686;
+				font-size: 17px;
+				font-weight: 500;
+				line-height: 140%;
+				letter-spacing: 0.34px;
+			}
+		}
+		button:hover {
+			background: #6e9c9f;
+			color: #fff;
+		}
+	}
+}
+
+.confirm_order {
+	width: 255px;
+	display: flex;
+	flex-direction: column;
+	gap: 47px;
+	> h3 {
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 35px;
+		letter-spacing: 0.02em;
+	}
+	&_main {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		> div {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 28px;
+			letter-spacing: 0.02em;
+
+			&:nth-child(4) {
+				width: 284px;
+				height: 57px;
+				background: #f1eadc;
+				margin-left: -15px;
+			}
+		}
+	}
+}
+
+.confirm_order2 {
+	width: 255px;
+	display: flex;
+	flex-direction: column;
+	gap: 47px;
+	> h3 {
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 35px;
+		letter-spacing: 0.02em;
+	}
+
+	> div {
+		display: flex;
+	}
+}

@@ -1,0 +1,76 @@
+.about {
+	&__title {
+		margin: 140px 0px 190px 0px;
+		display: flex;
+		flex-direction: column;
+		gap: 26px;
+		> h1 {
+			color: #000;
+			font-size: 55px;
+			font-weight: 500;
+			line-height: 110%;
+			letter-spacing: 1.1px;
+		}
+	}
+	&__main {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 120px;
+		&_1 {
+			display: flex;
+			gap: 94px;
+			align-items: center;
+			> div {
+				width: 542px;
+				height: 321px;
+				display: flex;
+				flex-direction: column;
+				gap: 46px;
+				> h3 {
+					color: #000;
+					font-size: 25px;
+					font-weight: 500;
+					line-height: 140%;
+					letter-spacing: 0.5px;
+				}
+				> p {
+					color: #000;
+					font-size: 17px;
+					font-weight: 500;
+					line-height: 140%;
+					letter-spacing: 0.34px;
+				}
+			}
+			&:nth-child(2) {
+				justify-content: flex-end;
+				margin-bottom: 130px;
+			}
+		}
+	}
+	&__button {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 150px;
+	}
+}
+
+.custom-breadcrumbs {
+	a {
+		color: #000;
+		font-size: 17px;
+		font-weight: 500;
+		line-height: 140%;
+		letter-spacing: 0.34px;
+		&:hover {
+			color: #6e9c9f;
+		}
+	}
+	.MuiTypography-root {
+		color: #909090;
+		font-size: 17px;
+		font-weight: 500;
+		line-height: 140%;
+		letter-spacing: 0.34px;
+	}
+}

@@ -1,0 +1,54 @@
+// Dream.scss
+.dream {
+	margin-bottom: 130px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__left {
+		position: relative;
+		margin-left: -55px;
+		display: flex;
+		align-items: center;
+		max-width: 900px;
+		overflow: hidden;
+		gap: 15px;
+		height: 490px;
+	}
+	&__carousel {
+		overflow: hidden;
+		img {
+			width: 100%;
+			display: block;
+		}
+	}
+
+	&__right {
+		display: flex;
+		flex-direction: column;
+		gap: 28px;
+		width: 255px;
+		height: 331px;
+		padding-top: 15px;
+		> h3 {
+			color: #000;
+			font-size: 25px;
+			font-weight: 500;
+			line-height: 140%;
+			letter-spacing: 0.5px;
+		}
+		> p {
+			color: #000;
+			font-size: 17px;
+			font-weight: 500;
+			line-height: 140%;
+			letter-spacing: 0.34px;
+		}
+		> a {
+			color: #6e9c9f;
+			font-size: 17px;
+			font-weight: 500;
+			line-height: 140%;
+			letter-spacing: 0.34px;
+		}
+	}
+}

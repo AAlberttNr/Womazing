@@ -1,0 +1,120 @@
+.product {
+	&__title {
+		display: flex;
+		flex-direction: column;
+		gap: 26px;
+		margin: 50px 0px 100px;
+	}
+	&__main {
+		display: flex;
+		align-items: center;
+		gap: 74px;
+		margin-bottom: 130px;
+		.product__prod {
+			display: flex;
+			flex-direction: column;
+			gap: 59px;
+		}
+		&_price {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			> p {
+				color: #998e78;
+				font-size: 40px;
+				font-weight: 500;
+				line-height: 110%;
+				letter-spacing: 0.8px;
+				&:nth-child(2) {
+					font-size: 30px;
+				}
+			}
+		}
+		&_size {
+			display: flex;
+			flex-direction: column;
+			gap: 34px;
+			> p {
+				color: #000;
+				font-style: 20px;
+				font-weight: 500;
+				line-height: 140%;
+				letter-spacing: 0.4px;
+			}
+			&_square {
+				display: flex;
+				gap: 14px;
+				> button {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 41px;
+					height: 41px;
+					border: 1px solid #000;
+					// font
+					color: #000;
+					font-style: 17px;
+					font-weight: 500;
+					line-height: 140%;
+					letter-spacing: 0.34px;
+					&.active {
+						color: #fff;
+						background: #000;
+					}
+				}
+			}
+		}
+		&_color {
+			display: flex;
+			flex-direction: column;
+			gap: 34px;
+			&_circle {
+				display: flex;
+				text-align: center;
+				gap: 14px;
+				> button {
+					width: 41px;
+					height: 41px;
+					border-radius: 50%;
+					&.active {
+						border: 1px solid #000;
+					}
+				}
+			}
+		}
+	}
+	&__link {
+		display: flex;
+		flex-direction: column;
+		gap: 67px;
+		margin-bottom: 130px;
+		> h2 {
+			color: #000;
+			font-size: 40px;
+			font-weight: 500;
+			line-height: 110%;
+			letter-spacing: 0.8px;
+		}
+		&_cards {
+			display: flex;
+			gap: 30px;
+		}
+	}
+}
+
+.product__button {
+	display: flex;
+	gap: 11px;
+	> input {
+		text-align: center;
+		width: 68px;
+		height: 68px;
+		outline: 1px solid #AFAFAF;
+		// font
+		font-size: 20px;
+		font-weight: 400;
+		&:focus {
+			outline: 1px solid #AFAFAF;
+		}
+	}
+}

@@ -1,0 +1,130 @@
+.cart {
+	&__main {
+		&_title {
+			display: flex;
+			margin-bottom: 26px;
+			p {
+				color: #000;
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 140%;
+				letter-spacing: 0.4px;
+				&:nth-child(1) {
+					margin-right: 416px;
+				}
+				&:nth-child(2) {
+					margin-right: 139px;
+				}
+				&:nth-child(3) {
+					margin-right: 167px;
+				}
+			}
+		}
+		&_under {
+			&_input {
+				display: flex;
+				justify-content: space-between;
+				div:nth-child(1) {
+					display: flex;
+					gap: 16px;
+				}
+			}
+		}
+	}
+}
+
+.cart__main_cards {
+	margin-top: 23px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 38.5px;
+	&_card {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 38.5px;
+		.closeButton {
+			cursor: pointer;
+			margin-right: 35px;
+			img {
+				width: 20px;
+			}
+		}
+
+		.productInfo {
+			display: flex;
+			width: 282.25px;
+			gap: 24px;
+			align-items: center;
+			margin-right: 140px;
+			img {
+				width: 136px;
+			}
+
+			.productName {
+				color: #000;
+				font-size: 17px;
+				font-weight: 500;
+				line-height: 140%;
+				letter-spacing: 0.34px;
+			}
+		}
+
+		.price {
+			margin-right: 151px;
+		}
+
+		.quantity {
+			margin-right: 240px;
+			input {
+				width: 47px;
+				height: 47px;
+				text-align: center;
+				border: 1px solid #afafaf;
+			}
+		}
+	}
+}
+
+.cart__complete {
+	display: flex;
+	flex-direction: column;
+	margin-left: 49%;
+	margin-top: 94px;
+	margin-bottom: 130px;
+	> p {
+		color: #000;
+		font-size: 17px;
+		font-weight: 500;
+		line-height: 140%;
+		letter-spacing: 0.34px;
+	}
+	&_final {
+		display: flex;
+		gap: 15px;
+		&_div {
+			display: inline-flex;
+			padding: 16px 51px 17px 31px;
+			align-items: flex-start;
+			gap: 69px;
+			background: #f1eadc;
+			div {
+				color: #000;
+				font-size: 25px;
+				font-weight: 500;
+				line-height: 140%;
+				letter-spacing: 0.5px;
+			}
+		}
+	}
+}
+
+.cart__empty {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 100px auto;
+	> p {
+		font-size: 35px;
+	}
+}
